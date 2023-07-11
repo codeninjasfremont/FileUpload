@@ -276,3 +276,22 @@ body{
 .create-account p a:hover{
     text-decoration: underline;
 }
+form[action="/api"] {
+    margin: 20px;
+}
+
+form[action="/api"] input[type="file"] {
+    margin: 10px 0;
+}
+
+form[action="/api"] button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+form[action="/api"] button:hover {
+    background-color: #45a049; /* Darker green */
+}
